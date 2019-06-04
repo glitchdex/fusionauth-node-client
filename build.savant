@@ -26,7 +26,7 @@ project(group: "io.fusionauth", name: "fusionauth-node-client", version: "1.7.0"
 
   publications {
     main {
-      publication(name: "fusionauth-node-client", type: "zip", file: "fusionauth-node-client-${project.version}.tgz")
+      publication(name: "fusionauth-node-client", type: "tgz", file: "fusionauth-node-client-${project.version}.tgz")
     }
   }
 }
